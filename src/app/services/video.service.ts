@@ -7,7 +7,7 @@ import { VideoTutorial } from '../models/video-tutorial.model';
 export class VideoService {
   #videos = signal<VideoTutorial[]>([
     {
-      youtubeId: 'UXW1t2Fmc4k',
+      youtubeId: 'UXW1t2Fmc4k?si=79H34fXe1QNaqZuf',
       title: 'Driver: Pre Shot Routine',
       description: 'How to walk into a shot like a pro and not only aim your body but your mind',
     },
