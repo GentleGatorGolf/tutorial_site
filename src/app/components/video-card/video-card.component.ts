@@ -21,8 +21,9 @@ import { VideoTutorial } from '../../models/video-tutorial.model';
             [src]="safeYoutubeUrl()"
             title="YouTube video player for {{ v.title }}"
             frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
             allowfullscreen
+            loading="lazy"
           ></iframe>
         </div>
       </article>
@@ -61,7 +62,9 @@ export class VideoCardComponent {
   #sanitizer = inject(DomSanitizer);
   public safeYoutubeUrl = computed(() => {
     const videoId = this.video().youtubeId;
-    const url = `https://www.youtube.com/embed/${videoId}`;
+    const url = `https://iframe.mediadelivery.net/embed/503806/${videoId}?autoplay=false&loop=false&muted=false&preload=true&responsive=true`;
     return this.#sanitizer.bypassSecurityTrustResourceUrl(url);
   });
 }
+
+
