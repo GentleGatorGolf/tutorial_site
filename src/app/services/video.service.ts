@@ -31,17 +31,27 @@ export class VideoService {
       title: 'Grip',
       description: 'Gripping the club correctly and consistently is your first step to a more consistent ball flight',
     },
-        {
+    {
+      youtubeId: '28d4a2a0-1c05-4052-b17f-aa3a8d3694aa',
+      title: 'Iron: Ball Position(Front View)',
+      description: 'Side Hill lies can be tricky. Learn how to adjust your stance and swing to make solid contact and control your ball flight.',
+    },
+    {
+      youtubeId: 'd68ec3b1-fd2c-47a0-be9c-91bfc6a06406',
+      title: 'Ball Position (Side View)',
+      description: 'Side Hill lies can be tricky. Learn how to adjust your stance and swing to make solid contact and control your ball flight.',
+    },
+    {
       youtubeId: '84c04ad8-3da9-45bf-9532-e98393ea5c0c',
       title: 'Iron: Side Hill Lies',
       description: 'Side Hill lies can be tricky. Learn how to adjust your stance and swing to make solid contact and control your ball flight.',
     },
-        {
+    {
       youtubeId: '3a909a6e-d7de-4a0a-a990-6a0cc47e10bc',
       title: 'Iron: Up/Down Hill Lies',
       description: 'Up/Down hill lies can really mess up your scorecard. Here is how to attack them.',
     },
-        {
+    {
       youtubeId: 'e0e200f9-a09c-498e-b4b1-749813fbcd7f',
       title: 'Iron: Face Checkpoints',
       description: 'Practice the three critical face check points and get instant feedback',
