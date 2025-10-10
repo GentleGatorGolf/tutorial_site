@@ -6,6 +6,11 @@ import { VideoTutorial } from '../models/video-tutorial.model';
 })
 export class VideoService {
   #videos = signal<VideoTutorial[]>([
+        {
+      youtubeId: '35f40d1f-a38d-470a-adea-81c6a7d6b270',
+      title: 'Grip',
+      description: 'Gripping the club correctly and consistently is your first step to a more consistent ball flight',
+    },
     {
       youtubeId: '5fc66aa5-0b0f-424f-be8d-dd72695104b7',
       title: 'Driver: Pre Shot Routine',
@@ -25,11 +30,6 @@ export class VideoService {
       youtubeId: '94f68a39-803b-4da3-8b3b-251a2fdab22c',
       title: 'Driver: Face Checkpoints',
       description: 'Practice the three critical face check points and get instant feedback',
-    },
-    {
-      youtubeId: '35f40d1f-a38d-470a-adea-81c6a7d6b270',
-      title: 'Grip',
-      description: 'Gripping the club correctly and consistently is your first step to a more consistent ball flight',
     },
     {
       youtubeId: '28d4a2a0-1c05-4052-b17f-aa3a8d3694aa',
